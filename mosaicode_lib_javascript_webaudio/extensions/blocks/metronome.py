@@ -63,7 +63,9 @@ var $port[start]$ = function(value){
     };
 
 var $port[stop]$ = function(value){
+    if (value > 0) {
     clearTimeout(block_$id$_timeout);
+    }
     return true;
     };
 
