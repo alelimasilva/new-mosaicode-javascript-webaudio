@@ -40,13 +40,13 @@
   </block>
  </blocks>
  <connections>
-  <connection from_block="2" from_out="1" to_block="1" to_in="1"/>
-  <connection from_block="3" from_out="1" to_block="1" to_in="2"/>
-  <connection from_block="3" from_out="1" to_block="5" to_in="1"/>
-  <connection from_block="6" from_out="1" to_block="5" to_in="2"/>
-  <connection from_block="1" from_out="3" to_block="10" to_in="1"/>
-  <connection from_block="5" from_out="3" to_block="10" to_in="2"/>
-  <connection from_block="10" from_out="3" to_block="11" to_in="1"/>
-  <connection from_block="11" from_out="2" to_block="8" to_in="6"/>
+  <connection from_block="2" from_out="0" to_block="1" to_in="0"/>
+  <connection from_block="3" from_out="0" to_block="1" to_in="1"/>
+  <connection from_block="3" from_out="0" to_block="5" to_in="0"/>
+  <connection from_block="6" from_out="0" to_block="5" to_in="1"/>
+  <connection from_block="1" from_out="2" to_block="10" to_in="0"/>
+  <connection from_block="5" from_out="2" to_block="10" to_in="1"/>
+  <connection from_block="10" from_out="2" to_block="11" to_in="0"/>
+  <connection from_block="11" from_out="1" to_block="8" to_in="5"/>
  </connections>
 </mosaicode>

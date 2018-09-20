@@ -4,37 +4,37 @@
  <zoom value="1.0"/>
  <language value="javascript"/>
  <blocks>
-  <block id="1" type="mosaicode_lib_javascript_webaudio.extensions.webaudio.GUI.print">
+  <block id="1" type="mosaicode_lib_javascript_webaudio.extensions.blocks.GUI.print">
    <position x="670.0" y="40.0"/>
    <property key="label" value="Label"/>
   </block>
-  <block id="3" type="mosaicode_lib_javascript_webaudio.extensions.webaudio.beat">
+  <block id="3" type="mosaicode_lib_javascript_webaudio.extensions.blocks.beat">
    <position x="170.0" y="40.0"/>
    <property key="value" value="1"/>
    <property key="time" value="1000"/>
   </block>
-  <block id="4" type="mosaicode_lib_javascript_webaudio.extensions.webaudio.inc">
+  <block id="4" type="mosaicode_lib_javascript_webaudio.extensions.blocks.inc">
    <position x="470.0" y="40.0"/>
    <property key="value" value="1"/>
    <property key="step" value="1"/>
   </block>
-  <block id="5" type="mosaicode_lib_javascript_webaudio.extensions.webaudio.form.button">
+  <block id="5" type="mosaicode_lib_javascript_webaudio.extensions.blocks.form.button">
    <position x="0.0" y="40.0"/>
    <property key="value" value="1"/>
    <property key="label" value="Label"/>
   </block>
-  <block id="6" type="mosaicode_lib_javascript_webaudio.extensions.webaudio.keyboardinput">
+  <block id="6" type="mosaicode_lib_javascript_webaudio.extensions.blocks.keyboardinput">
    <position x="30.0" y="220.0"/>
   </block>
-  <block id="7" type="mosaicode_lib_javascript_webaudio.extensions.webaudio.GUI.print">
+  <block id="7" type="mosaicode_lib_javascript_webaudio.extensions.blocks.GUI.print">
    <position x="300.0" y="210.0"/>
    <property key="label" value="Label"/>
   </block>
  </blocks>
  <connections>
-  <connection from_block="3" from_out="1" to_block="4" to_in="2"/>
-  <connection from_block="4" from_out="1" to_block="1" to_in="1"/>
-  <connection from_block="5" from_out="1" to_block="3" to_in="2"/>
-  <connection from_block="6" from_out="1" to_block="7" to_in="1"/>
+  <connection from_block="3" from_out="0" to_block="4" to_in="1"/>
+  <connection from_block="4" from_out="0" to_block="1" to_in="0"/>
+  <connection from_block="5" from_out="0" to_block="3" to_in="1"/>
+  <connection from_block="6" from_out="0" to_block="7" to_in="0"/>
  </connections>
 </mosaicode>
