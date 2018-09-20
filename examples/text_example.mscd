@@ -4,11 +4,11 @@
  <zoom value="1.0"/>
  <language value="javascript"/>
  <blocks>
-  <block id="2" type="mosaicode_lib_javascript_webaudio.extensions.webaudio.print">
+  <block id="2" type="mosaicode_lib_javascript_webaudio.extensions.blocks.print">
    <position x="450.0" y="110.0"/>
    <property key="label" value="Str"/>
   </block>
-  <block id="3" type="mosaicode_lib_javascript_webaudio.extensions.webaudio.GUI.text">
+  <block id="3" type="mosaicode_lib_javascript_webaudio.extensions.blocks.GUI.text">
    <position x="0.0" y="0.0"/>
    <property key="value" value=""/>
    <property key="label" value="Label"/>
