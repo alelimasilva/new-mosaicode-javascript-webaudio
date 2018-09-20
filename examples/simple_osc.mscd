@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosaicode>
+ <version value="0.0.1"/>
+ <zoom value="1.0"/>
+ <language value="javascript"/>
+ <blocks>
+  <block collapsed="False" id="1" type="mosaicode_lib_javascript_webaudio.extensions.blocks.oscillator">
+   <position x="40.0" y="130.0"/>
+   <property key="freq" value="440"/>
+   <property key="type" value="sine"/>
+  </block>
+  <block collapsed="False" id="2" type="mosaicode_lib_javascript_webaudio.extensions.blocks.speaker">
+   <position x="220.0" y="130.0"/>
+  </block>
+ </blocks>
+ <connections>
+  <connection from_block="1" from_out="3" to_block="2" to_in="0"/>
+ </connections>
+ <comments>
+  <comment text="This is a simple oscillator" x="20.0" y="10.0"/>
+ </comments>
+</mosaicode>

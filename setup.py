@@ -39,10 +39,8 @@ setup(name='mosaicode-lib-javascript-webaudio',
       maintainer_email="mosaicode-dev@googlegroups.com",
       license="GNU GPL3",
       url='https://mosaicode.github.io/',
-
-      # this is fucked up! must put it in package_data!!
       data_files=[
-            ('/usr/share/mosaicode/extensions/mosaicode_lib_javascript_webaudio/examples', glob("examples/*"))
+            ('/usr/share/mosaicode/extensions/examples/javascript/webaudio', glob("examples/*"))
       ],
       **config
       )
