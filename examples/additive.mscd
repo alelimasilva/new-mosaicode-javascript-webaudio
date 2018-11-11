@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosaicode>
+ <version value="0.0.1"/>
+ <zoom value="1.0"/>
+ <language value="javascript"/>
+ <blocks>
+  <block collapsed="False" id="1" type="mosaicode_lib_javascript_webaudio.extensions.blocks.speaker">
+   <position x="740.0" y="110.0"/>
+  </block>
+  <block collapsed="False" id="2" type="mosaicode_lib_javascript_webaudio.extensions.blocks.oscillator">
+   <position x="310.0" y="140.0"/>
+   <property key="freq" value="440"/>
+   <property key="type" value="sine"/>
+  </block>
+  <block collapsed="False" id="3" type="mosaicode_lib_javascript_webaudio.extensions.blocks.oscillator">
+   <position x="420.0" y="230.0"/>
+   <property key="freq" value="440"/>
+   <property key="type" value="sine"/>
+  </block>
+  <block collapsed="False" id="4" type="mosaicode_lib_javascript_webaudio.extensions.blocks.input devices.mouseposition">
+   <position x="40.0" y="110.0"/>
+  </block>
+  <block collapsed="False" id="6" type="mosaicode_lib_javascript_webaudio.extensions.blocks.addsound">
+   <position x="580.0" y="180.0"/>
+  </block>
+  <block collapsed="False" id="7" type="mosaicode_lib_javascript_webaudio.extensions.blocks.arithmetics.multiplyfloat">
+   <position x="230.0" y="250.0"/>
+  </block>
+  <block collapsed="False" id="8" type="mosaicode_lib_javascript_webaudio.extensions.blocks.form.range">
+   <position x="50.0" y="270.0"/>
+   <property key="value" value="2.0"/>
+   <property key="label" value="Multiply"/>
+   <property key="min" value="0.0"/>
+   <property key="max" value="100.0"/>
+  </block>
+  <block collapsed="False" id="9" type="mosaicode_lib_javascript_webaudio.extensions.blocks.GUI.print">
+   <position x="280.0" y="360.0"/>
+   <property key="label" value="Label"/>
+  </block>
+  <block collapsed="False" id="10" type="mosaicode_lib_javascript_webaudio.extensions.blocks.GUI.spectrogram">
+   <position x="740.0" y="260.0"/>
+  </block>
+ </blocks>
+ <connections>
+  <connection from_block="4" from_out="0" to_block="2" to_in="1"/>
+  <connection from_block="2" from_out="3" to_block="6" to_in="0"/>
+  <connection from_block="6" from_out="2" to_block="1" to_in="0"/>
+  <connection from_block="3" from_out="3" to_block="6" to_in="1"/>
+  <connection from_block="4" from_out="0" to_block="7" to_in="0"/>
+  <connection from_block="7" from_out="2" to_block="3" to_in="1"/>
+  <connection from_block="8" from_out="0" to_block="7" to_in="1"/>
+  <connection from_block="8" from_out="0" to_block="9" to_in="0"/>
+  <connection from_block="6" from_out="2" to_block="10" to_in="0"/>
+ </connections>
+ <comments/>
+</mosaicode>
