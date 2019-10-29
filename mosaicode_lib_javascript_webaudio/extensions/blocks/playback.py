@@ -59,7 +59,6 @@ function handleFile_$id$() {
           });
     };
     reader.readAsArrayBuffer(input_pb_$id$.files[0]);
-
     $port[output]$.start();
 }
 '''
