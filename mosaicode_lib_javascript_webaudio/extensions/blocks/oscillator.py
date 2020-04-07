@@ -63,6 +63,7 @@ var $port[sound]$ = block_$id$;
 var $port[freq]$ = function(value){
     block_$id$.frequency.value = value;
 };
+
 var $port[type]$ = function(value){
     oscillator = ''
     if (value < 1) oscillator = 'square';

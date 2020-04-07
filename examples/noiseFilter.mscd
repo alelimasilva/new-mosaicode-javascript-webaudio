@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosaicode>
+ <version value="0.0.1"/>
+ <zoom value="1.0"/>
+ <language value="javascript"/>
+ <blocks>
+  <block collapsed="False" id="1" type="mosaicode_lib_javascript_webaudio.extensions.blocks.whitenoise">
+   <position x="130.0" y="160.0"/>
+  </block>
+  <block collapsed="False" id="2" type="mosaicode_lib_javascript_webaudio.extensions.blocks.speaker">
+   <position x="490.0" y="130.0"/>
+  </block>
+  <block collapsed="False" id="3" type="mosaicode_lib_javascript_webaudio.extensions.blocks.Audio Filter.highpass">
+   <position x="290.0" y="160.0"/>
+  </block>
+  <block collapsed="False" id="4" type="mosaicode_lib_javascript_webaudio.extensions.blocks.form.range">
+   <position x="80.0" y="260.0"/>
+   <property key="value" value="0.0"/>
+   <property key="label" value="Label"/>
+   <property key="min" value="0.0"/>
+   <property key="max" value="10000.0"/>
+  </block>
+ </blocks>
+ <connections>
+  <connection from_block="1" from_out="0" to_block="3" to_in="0"/>
+  <connection from_block="3" from_out="3" to_block="2" to_in="0"/>
+ </connections>
+ <comments/>
+</mosaicode>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosaicode>
+ <version value="0.0.1"/>
+ <zoom value="1.0"/>
+ <language value="javascript"/>
+ <blocks>
+  <block collapsed="False" id="1" type="mosaicode_lib_javascript_webaudio.extensions.blocks.playback">
+   <position x="180.0" y="110.0"/>
+   <property key="loop" value="False"/>
+   <property key="label" value="Playback"/>
+  </block>
+  <block collapsed="False" id="2" type="mosaicode_lib_javascript_webaudio.extensions.blocks.speaker">
+   <position x="440.0" y="220.0"/>
+  </block>
+ </blocks>
+ <connections>
+  <connection from_block="1" from_out="0" to_block="2" to_in="0"/>
+ </connections>
+ <comments/>
+</mosaicode>
