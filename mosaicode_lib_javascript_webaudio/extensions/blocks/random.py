@@ -13,7 +13,7 @@ class Random(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Random"
         self.label = "Random"
         self.color = "150:150:250:150"

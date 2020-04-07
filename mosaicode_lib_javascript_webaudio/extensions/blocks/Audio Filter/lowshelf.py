@@ -14,7 +14,7 @@ class Lowshelf(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = " Lowshelf"
         self.label = "Lowshelf"
         self.color = "50:150:250:150"

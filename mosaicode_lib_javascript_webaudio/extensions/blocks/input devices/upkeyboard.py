@@ -13,7 +13,7 @@ class UpKeyboard(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "UpKeyboard"
         self.label = "UpKeyboard"
         self.color = "50:150:250:150"

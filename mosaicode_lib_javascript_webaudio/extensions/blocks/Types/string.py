@@ -14,7 +14,7 @@ class String(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = ""
         self.label = "String"
         self.color = "150:50:150:150"

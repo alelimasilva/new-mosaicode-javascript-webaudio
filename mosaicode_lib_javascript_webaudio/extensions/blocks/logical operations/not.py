@@ -14,7 +14,7 @@ class Not(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Logical Operation NOT"
         self.label = "NOT"
         self.color = "249:229:4:150"

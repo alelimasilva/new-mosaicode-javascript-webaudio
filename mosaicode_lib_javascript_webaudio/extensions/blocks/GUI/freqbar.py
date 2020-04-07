@@ -13,7 +13,7 @@ class FreqBar(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Freq Bar"
         self.label = "Freq Bar"
         self.color = "150:050:050:150"

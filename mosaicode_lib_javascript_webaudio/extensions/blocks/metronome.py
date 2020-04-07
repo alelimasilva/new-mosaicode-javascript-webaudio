@@ -13,7 +13,7 @@ class Metronome(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Metronome"
         self.label = "Metronome"
         self.color = "150:150:250:150"

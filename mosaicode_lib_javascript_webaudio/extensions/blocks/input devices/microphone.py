@@ -14,7 +14,7 @@ class Microphone(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Microphone"
         self.label = "Microphone"
         self.color = "150:150:250:150"

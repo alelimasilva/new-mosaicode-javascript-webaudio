@@ -13,7 +13,7 @@ class Hour(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Hour"
         self.label = "Hour"
         self.color = "150:10:20:150"

@@ -13,7 +13,7 @@ class OrientationChange(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Orientation Change"
         self.label = "Orientation Change"
         self.color = "50:50:50:150"
