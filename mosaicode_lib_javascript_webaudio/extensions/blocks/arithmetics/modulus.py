@@ -14,7 +14,7 @@ class Modulus(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Modulus Operation (%)"
         self.label = "Modulus"
         self.color = "200:200:25:150"

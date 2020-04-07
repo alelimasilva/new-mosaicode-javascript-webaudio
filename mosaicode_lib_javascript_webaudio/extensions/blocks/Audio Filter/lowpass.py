@@ -14,7 +14,7 @@ class Lowpass(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = " Lowpass"
         self.label = "Lowpass"
         self.color = "50:150:250:150"

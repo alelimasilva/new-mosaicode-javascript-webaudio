@@ -14,7 +14,7 @@ class Or(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Logical Operation OR"
         self.label = "OR"
         self.color = "249:229:4:150"

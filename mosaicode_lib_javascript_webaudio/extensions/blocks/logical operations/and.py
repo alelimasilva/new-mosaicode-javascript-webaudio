@@ -14,7 +14,7 @@ class And(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Logical Operation AND"
         self.label = "AND"
         self.color = "249:229:4:150"

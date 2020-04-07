@@ -13,7 +13,7 @@ class DeviceOrientation(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Device Orientation"
         self.label = "Device Orientation"
         self.color = "50:50:50:150"

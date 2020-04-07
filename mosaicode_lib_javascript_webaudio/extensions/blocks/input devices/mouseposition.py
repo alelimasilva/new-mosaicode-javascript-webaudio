@@ -13,7 +13,7 @@ class MousePosition(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Mouse Position"
         self.label = "Mouse Position"
         self.color = "50:50:50:150"

@@ -14,7 +14,7 @@ class LessThan(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Less Than (<)"
         self.label = "Less Than"
         self.color = "163:01:01:150"

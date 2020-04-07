@@ -13,7 +13,7 @@ class Char2Float(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Char to Float"
         self.label = "Char 2 Float"
         self.color = "200:200:25:150"

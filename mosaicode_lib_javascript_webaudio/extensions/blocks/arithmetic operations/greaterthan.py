@@ -14,7 +14,7 @@ class GreaterThan(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Greater Than (>)"
         self.label = "Greater Than"
         self.color = "163:01:01:150"

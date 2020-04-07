@@ -12,7 +12,7 @@ class MaxFloat(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Max Float"
         self.label = "Max Float"
         self.color = "200:200:25:150"

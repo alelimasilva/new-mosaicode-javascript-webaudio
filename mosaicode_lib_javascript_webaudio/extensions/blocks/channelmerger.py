@@ -13,7 +13,7 @@ class ChannelMerger(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Channel Merger"
         self.label = "Channel Merger"
         self.color = "50:150:250:150"

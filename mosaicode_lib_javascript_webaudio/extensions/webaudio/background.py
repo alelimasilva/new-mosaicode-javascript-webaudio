@@ -13,7 +13,7 @@ class Brackground(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Change Background color"
         self.label = "Background"
         self.color = "50:150:0:150"

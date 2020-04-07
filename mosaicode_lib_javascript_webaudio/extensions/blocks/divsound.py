@@ -14,7 +14,7 @@ class DivSound(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Div Sound"
         self.label = "Div Sound"
         self.color = "50:150:250:150"

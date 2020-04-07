@@ -14,7 +14,7 @@ class Equals(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Equals (==)"
         self.label = "Equals To"
         self.color = "163:01:01:150"
