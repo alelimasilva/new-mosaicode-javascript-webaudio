@@ -13,7 +13,7 @@ class SineWave(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Sine Wave"
         self.label = "Sine Wave"
         self.color = "150:050:050:150"

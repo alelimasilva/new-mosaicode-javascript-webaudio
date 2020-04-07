@@ -13,7 +13,7 @@ class Gain(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Sound output"
         self.label = "Gain"
         self.color = "50:150:250:150"

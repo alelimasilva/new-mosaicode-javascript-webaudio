@@ -14,7 +14,7 @@ class AddSound(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Add Sound"
         self.label = "Add Sound"
         self.color = "50:150:250:150"

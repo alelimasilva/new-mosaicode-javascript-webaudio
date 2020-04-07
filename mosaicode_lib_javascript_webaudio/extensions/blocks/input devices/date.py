@@ -13,7 +13,7 @@ class Date(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Date"
         self.label = "Date"
         self.color = "150:10:20:150"

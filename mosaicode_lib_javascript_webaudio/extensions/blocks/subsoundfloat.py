@@ -14,7 +14,7 @@ class SubSoundFloat(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = " Sub Sound Float"
         self.label = "Sub Sound Float"
         self.color = "50:150:250:150"

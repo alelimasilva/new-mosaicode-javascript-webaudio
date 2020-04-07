@@ -14,7 +14,7 @@ class MulSoundFloat(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = " Mul Sound Float"
         self.label = "Mul Sound Float"
         self.color = "50:150:250:150"

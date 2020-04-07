@@ -14,7 +14,7 @@ class LessThanOrEquals(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Less Than Or Equals (<=)"
         self.label = "Less Than Or Equals"
         self.color = "163:01:01:150"

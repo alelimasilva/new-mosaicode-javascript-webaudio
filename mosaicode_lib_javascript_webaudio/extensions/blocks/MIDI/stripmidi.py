@@ -13,7 +13,7 @@ class StripMidi(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Strip Midi"
         self.label = "Strip Midi"
         self.color = "250:250:0:150"

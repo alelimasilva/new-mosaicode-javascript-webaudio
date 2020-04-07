@@ -13,7 +13,7 @@ class Bool2Float(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Bool to Float"
         self.label = "Bool 2 Float"
         self.color = "200:200:25:150"

@@ -14,7 +14,7 @@ class GreaterThanOrEquals(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Greater Than Or Equals (>=)"
         self.label = "Greater Than Or Equals"
         self.color = "163:01:01:150"

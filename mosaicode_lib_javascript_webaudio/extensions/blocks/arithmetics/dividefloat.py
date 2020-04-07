@@ -13,7 +13,7 @@ class DivideFloat(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Divide Float"
         self.label = "Divide Float"
         self.color = "200:200:25:150"

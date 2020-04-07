@@ -13,7 +13,7 @@ class Midi2Freq(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "midi to freq"
         self.label = "Midi 2 Freq"
         self.color = "250:250:0:150"

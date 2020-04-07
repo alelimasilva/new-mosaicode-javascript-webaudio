@@ -13,7 +13,7 @@ class Oscillator(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Sound output"
         self.label = "Oscillator"
         self.color = "50:150:250:150"

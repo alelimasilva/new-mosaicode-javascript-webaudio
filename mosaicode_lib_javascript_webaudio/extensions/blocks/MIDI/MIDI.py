@@ -13,7 +13,7 @@ class MIDI(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "MIDI"
         self.label = "MIDI"
         self.color = "250:250:0:150"

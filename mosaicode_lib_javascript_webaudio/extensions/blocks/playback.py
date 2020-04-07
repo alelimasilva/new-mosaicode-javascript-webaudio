@@ -13,7 +13,7 @@ class Playback(BlockModel):
         BlockModel.__init__(self)
 
         self.language = "javascript"
-        self.framework = "webaudio"
+        self.extension = "webaudio"
         self.help = "Playback"
         self.label = "Playback"
         self.color = "150:150:250:150"
